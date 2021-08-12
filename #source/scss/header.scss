@@ -1,0 +1,33 @@
+.header{
+    height: 100px;
+    background-color: #3551bb;
+    color: #ffffff;
+    .heder_inner{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .bills_block{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .bill_body{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #ffffff;
+        padding: 10px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .bill_item{
+        padding: 5px 15px;
+        color: #818181;
+        border-bottom: 1px solid #cccccc;
+    }
+}
